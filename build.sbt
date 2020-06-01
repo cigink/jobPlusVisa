@@ -10,3 +10,6 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.24"
 libraryDependencies += "org.jsoup" % "jsoup" % "1.13.1"
 libraryDependencies +="org.apache.commons" % "commons-dbcp2" % "2.0.1"
 
+enablePlugins(JavaAppPackaging)
+
+
