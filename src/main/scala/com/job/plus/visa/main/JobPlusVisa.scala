@@ -1,4 +1,5 @@
 package com.job.plus.visa.main
+import scala.util.Properties
 
 object JobPlusVisa extends App {
 
@@ -34,7 +35,9 @@ object JobPlusVisa extends App {
   
   val url = "https://stackoverflow.com/jobs/feed?v=true"
   val combinations = JpvUtils.generator(List(experience_level, job_type, role))
-  
+
+//Heroku compatibility
+  val httpPort = Properties.envOrElse("PORT", "8080").toInt
   
   val connection = Datasource.connectionPool.getConnection
     var inc = 0
