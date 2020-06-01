@@ -38,6 +38,7 @@ object JobPlusVisa extends App {
 
 //Heroku compatibility
   val httpPort = Properties.envOrElse("PORT", "8080").toInt
+  val SERVER_URL = Properties.envOrElse("SERVER_URL", "0.0.0.0")
   
   val connection = Datasource.connectionPool.getConnection
     var inc = 0
