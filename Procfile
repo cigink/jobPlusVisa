@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/stackcrawler -Dhttp.port=${PORT}
+worker: target/universal/stage/bin/stackcrawler -Dhttp.port=${PORT}
