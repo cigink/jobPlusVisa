@@ -17,12 +17,12 @@ object JobPlusVisa extends App {
                                 "Manager"
                               )
   val job_type = List("Full Time", "Contract", "Internship")
-  val role =     List("Backend developer",
+  val role =     List("Backend Developer",
                       "Data Scientist",
-                      "Data Administrator",
+                      "Database Administrator",
                       "Designer",
                       "Desktop Developer",
-                      "DevOps",
+                      "DevOps Developer",
                       "Embeded Developer",
                       "Frontend Developer",
                       "Full Stack Developer",
