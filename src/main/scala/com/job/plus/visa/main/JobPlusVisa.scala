@@ -23,13 +23,13 @@ object JobPlusVisa extends App {
                       "Designer",
                       "Desktop Developer",
                       "DevOps Developer",
-                      "Embeded Developer",
+                      "Embedded Developer",
                       "Frontend Developer",
                       "Full Stack Developer",
-                      "Graphics/Game Developer",
+                      "Game Developer",
                       "Mobile Developer",
                       "Product Manager",
-                      "QA/Test Developer",
+                      "QATest Developer",
                       "System Administrator"
                     )
  // https://stackoverflow.com/jobs/feed?v=true&dr=BackendDeveloper
