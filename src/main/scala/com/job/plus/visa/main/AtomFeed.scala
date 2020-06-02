@@ -59,7 +59,7 @@ case class AtomFeed (url:  String,
     val today = checkerDateFormat.format(calendar.getTime())
     
     
-//    if (checkerDateFormat.format(date_gmt) >=(today)) {
+    if (checkerDateFormat.format(date_gmt) >=(today)) {
 
     //id
     val id = entry.getUri.toLong
@@ -120,5 +120,5 @@ case class AtomFeed (url:  String,
       comment_count, place, tags, experience, jobType, roleType, company_name, stackUrl, connection)
 
   }
-//  }
+  }
 }
