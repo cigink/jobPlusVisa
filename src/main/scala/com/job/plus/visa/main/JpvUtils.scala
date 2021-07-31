@@ -22,7 +22,7 @@ object JpvUtils {
     val body4 = doc.body()
     var link = body4.getElementsByClass("s-btn s-btn__primary grid--cell sm:fl1 ta-center s-btn__md w100 _apply _url js-apply js-url-apply d-block")
     if (link.isEmpty) {
-      link = body4.getElementsByClass("s-btn s-btn__primary grid--cell sm:fl1 ta-center s-btn__md w100 _apply js-apply d-block")
+      link = body4.getElementsByClass("s-btn s-btn__primary flex--item sm:fl1 ta-center  _apply js-apply d-block")
     }
     link.attr("href")
   }
